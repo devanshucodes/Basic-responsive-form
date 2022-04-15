@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .form{
+            margin: auto;
+            width: 1000px;
+            height: 700px;
+            border: 4px blueviolet solid;
+            background-color: rgb(213, 182, 242);
+        }
+        .head{
+             text-align: center;
+             font-size: 40px;
+        }
+        .form input{
+            text-align: center;
+            width: 990px;
+            height: 40px;
+        }
+        .form select{
+            width: 995px;
+            height: 40px;
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 550px){
+            .form{
+                margin: auto;
+                width: 540px;
+
+            }
+            .form input{
+            text-align: center;
+            width: 530px;
+            height: 40px;
+        } 
+
+        .form select{
+            width: 538px;
+            height: 40px;
+            text-align: center;
+        }
+        }
+
+        @media screen and (max-width: 300px){
+            .form{
+                margin: auto;
+                width: 290px;
+
+            }
+            .form input{
+            text-align: center;
+            width: 280px;
+            height: 40px;
+        } 
+        .form select{
+            width: 288px;
+            height: 40px;
+            text-align: center;
+        }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="form">
+      <p class="head">FORM </p>
+      <form>
+        Name : <br> <input type="text"><br><br> 
+        Class :<br>   <input type="text"><br> <br>
+        Where you live :<br>   <input type="text"><br> <br>
+        What you know :<br>   <input type="text"><br> <br>
+        DOB :<br>  <input type="date" name="" id=""><br> <br>
+        Enter your email :<br> <input type="email" name="" id=""><br> <br>
+        Select your Gender :<br>
+
+        <select name="gender" id="">
+            
+            <option>
+                Male
+            </option>
+            <option> Female </option>
+            <option> Others </option>
+        </select>
+      </form>
+    </div>
+</body>
+</html>
